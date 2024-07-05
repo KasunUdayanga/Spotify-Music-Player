@@ -2,4 +2,5 @@
 edit karada
 yes boss
 
-mama dena hadanawa
+mama dena hadanawa 
+kisima nenen
