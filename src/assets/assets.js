@@ -77,7 +77,7 @@ export const albumsData = [
         id:0,
         name: "Dawasak Ewi",
         image: img8,
-        desc:"Dwasak Ewi Piyath rajapaksha with Dream",
+        desc:"Dwasak Ewi Piyath rajapaksha with Dream star super",
         bgColor:"#568796"
     },
     {   
