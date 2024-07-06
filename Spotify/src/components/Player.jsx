@@ -4,7 +4,7 @@ import { PlayerContext } from '../content/PlayerContext'
 
 const  Player = () => {
 
-  const {track,seekBar,seekBg,playStatus,play,pause} = useContext(PlayerContext)
+  const {track,seekBar,seekBg,playStatus,play,pause,time} = useContext(PlayerContext)
 
 
   return (
@@ -30,11 +30,11 @@ const  Player = () => {
             <img className='w-4 cursor-pointer' src={assets.loop_icon} alt=""/>
           </div>
           <div className='flex items-center gap-5'>
-            <p>1:16</p>
+            <p>{time.currentTime.minute}:{time.currentTime.second}</p>
             <div ref={seekBg} className='w-[60vw] max-w-[500px] bg-gray-300 rounded-full cursor-pointer' >
               <hr ref={seekBar} className='h-1 border-none w-10 bg-green-800 rounded-full'/>
             </div>
-            <p>3.20</p>
+            <p>{time.totalTime.minute} : {time.currentTime.second}</p>
           </div>
         </div>
         <div className=' hidden lg:flex items-center gap-2 opacity-75'>
