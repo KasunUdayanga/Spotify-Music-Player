@@ -72,44 +72,44 @@ export const assets = {
 export const albumsData = [
     {   
         id:0,
-        name: "Top 50 Global",
+        name: "Dawasak Ewi",
         image: img8,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Dwasak Ewi Piyath rajapaksha with Dream",
         bgColor:"#2a4365"
     },
     {   
         id:1,
-        name: "Top 50 India",
+        name: "Galana Ganga",
         image: img9,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Charitha Attalage, Ravi Jay",
         bgColor:"#22543d"
     },
     {   
         id:2,
-        name: "Trending India",
+        name: "Mandaram Kathawe",
         image: img10,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Anushka IJdana, Nisal Gamage, Amith Guru, Wasthi",
         bgColor:"#742a2a"
     },
     {   
         id:3,
-        name: "Trending Global",
+        name: "Kiyaapan",
         image: img16,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Anushka Udana • Kiyaapan",
         bgColor:"#44337a"
     },
     {   
         id:4,
-        name: "Mega Hits,",
+        name: "Aasa Kooda - From Think indie",
         image: img11,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Abhyankkar • Aasa Kooda (From Think Indie)",
         bgColor:"#234e52"
     },
     {   
         id:5,
-        name: "Happy Favorites",
+        name: "Romeo",
         image: img15,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Kanchana Anuradhi",
         bgColor:"#744210"
     }
 ]
@@ -117,66 +117,66 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
+        name: "Santhan Susum",
         image: img1,
         file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:00"
+        desc:"santhana susum hadawa hanthana sulaga hemuwa",
+        duration:"4:04"
     },
     {
         id:1,
-        name: "Song Two",
+        name: "Mandire Hade",
         image: img2,
         file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:20"
+        desc:"Dulan ArX man hidin mese",
+        duration:"3:27"
     },
     {
         id:2,
-        name: "Song Three",
+        name: "Bonnaona",
         image: img3,
         file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:32"
+        desc:"DJJNK Shan putha Maniyo",
+        duration:"3:57"
     },
     {
         id:3,
-        name: "Song Four",
+        name: "Ma Thaniwi Unna Den",
         image: img4,
         file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:50"
+        desc:"Pradeep Rangana Emotional Song",
+        duration:"3:56"
     },
     {
         id:4,
-        name: "Song Five",
+        name: "Rallen Ralle",
         image: img5,
         file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:10"
+        desc:"Dinesh Gamage Kanchana Anuradhi",
+        duration:"3:28"
     },
     {
         id:5,
-        name: "Song Six",
+        name: "Amathala",
         image: img14    ,
         file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:45"
+        desc:"Udaya Shree denne hethu karana",
+        duration:"3.50"
     },
     {
         id:6,
-        name: "Song Seven",
+        name: "Numbe As",
         image: img7,
         file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:18"
+        desc:"Yasas Medagedara • Numbe As (Visal Adare - The Movie)",
+        duration:"3:25"
     },
     {
         id:7,
-        name: "Song Eight",
+        name: "Numba Deka Ma",
         image: img12,
         file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:35"
+        desc:"Sasindu Raveen Numba Deka Ma",
+        duration:"3:42"
     }
 ]
