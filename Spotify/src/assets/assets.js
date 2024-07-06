@@ -41,6 +41,11 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import song4 from  './song4.mp3'
+import song5 from  './song5.mp3'
+import song6 from  './song6.mp3'
+import song7 from  './song7.mp3'
+import song8 from  './song8.mp3'
 
 export const assets = {
     bell_icon,
@@ -143,7 +148,7 @@ export const songsData = [
         id:3,
         name: "Ma Thaniwi Unna Den",
         image: img4,
-        file:song1,
+        file:song4,
         desc:"Pradeep Rangana Emotional Song",
         duration:"3:56"
     },
@@ -151,7 +156,7 @@ export const songsData = [
         id:4,
         name: "Rallen Ralle",
         image: img5,
-        file:song2,
+        file:song5,
         desc:"Dinesh Gamage Kanchana Anuradhi",
         duration:"3:28"
     },
@@ -159,15 +164,15 @@ export const songsData = [
         id:5,
         name: "Amathala",
         image: img14    ,
-        file:song3,
+        file:song6,
         desc:"Udaya Shree denne hethu karana",
-        duration:"3.50"
+        duration:"3.51"
     },
     {
         id:6,
         name: "Numbe As",
         image: img7,
-        file:song1,
+        file:song7,
         desc:"Yasas Medagedara • Numbe As (Visal Adare - The Movie)",
         duration:"3:25"
     },
@@ -175,7 +180,7 @@ export const songsData = [
         id:7,
         name: "Numba Deka Ma",
         image: img12,
-        file:song2,
+        file:song8,
         desc:"Sasindu Raveen Numba Deka Ma",
         duration:"3:42"
     }
