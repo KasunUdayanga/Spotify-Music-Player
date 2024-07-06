@@ -1,4 +1,4 @@
-# Spotify Web App Clone
+# Spotify-Music-Player
 
 This is a clone of the Spotify web app built using React, Vite, and Tailwind CSS. The aim of this project is to replicate the UI and some basic functionalities of the Spotify web app for educational purposes.
 
@@ -18,7 +18,7 @@ To get started with this project, follow these steps:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/KasunUdayanga/spotify-clone.git
+    git clone https://github.com/KasunUdayanga/Spotify-Music-Player.git
     cd Spotify-Music-Player
     ```
 
