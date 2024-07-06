@@ -11,12 +11,12 @@ const PlayerContextProvider =(props) =>{
     const [playStatus,setPlayStatus] =  useState(false);
     const [time,setTime] = useState({
         currentTime:{
-            second:0,
-            minuits:0
+            second: 0,
+            minute: 0
         },
         totalTime:{
             second:0,
-            minuits:0
+            minute:0
         }
 
     })
@@ -35,11 +35,11 @@ const PlayerContextProvider =(props) =>{
                 setTime({
                     currentTime:{
                         second: Math.floor(audioRef.current.currentTime % 60),
-                        minuits:Math.floor(audioRef.current.currentTime / 60)
+                        minute:Math.floor(audioRef.current.currentTime / 60)
                     },
                     totalTime:{
                         second: Math.floor(audioRef.current.duration % 60),
-                        minuits:Math.floor(audioRef.current.duration /60)
+                        minute:Math.floor(audioRef.current.duration /60)
                     }
             
                 })
