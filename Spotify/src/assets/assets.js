@@ -78,42 +78,42 @@ export const albumsData = [
         name: "Dawasak Ewi",
         image: img8,
         desc:"Dwasak Ewi Piyath rajapaksha with Dream",
-        bgColor:"#2a4365"
+        bgColor:"#568796"
     },
     {   
         id:1,
         name: "Galana Ganga",
         image: img9,
         desc:"Charitha Attalage, Ravi Jay",
-        bgColor:"#22543d"
+        bgColor:"#393c65"
     },
     {   
         id:2,
         name: "Mandaram Kathawe",
         image: img10,
         desc:"Anushka IJdana, Nisal Gamage, Amith Guru, Wasthi",
-        bgColor:"#742a2a"
+        bgColor:"#494623"
     },
     {   
         id:3,
         name: "Kiyaapan",
         image: img16,
         desc:"Anushka Udana • Kiyaapan",
-        bgColor:"#44337a"
+        bgColor:"#365953"
     },
     {   
         id:4,
         name: "Aasa Kooda - From Think indie",
         image: img11,
         desc:"Abhyankkar • Aasa Kooda (From Think Indie)",
-        bgColor:"#234e52"
+        bgColor:"#f19f49"
     },
     {   
         id:5,
         name: "Romeo",
         image: img15,
         desc:"Kanchana Anuradhi",
-        bgColor:"#744210"
+        bgColor:"#5cdbfb"
     }
 ]
 
