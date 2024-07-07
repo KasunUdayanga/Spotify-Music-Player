@@ -9,6 +9,7 @@ const PlayerContextProvider =(props) =>{
 
     const [track,setTrack] =useState(songsData[0]);
     const [playStatus,setPlayStatus] =  useState(false);
+    const [volume, setVolume] = useState(1); // Add volume state
     const [time,setTime] = useState({
         currentTime:{
             second: 0,
@@ -52,12 +53,11 @@ const PlayerContextProvider =(props) =>{
         audioRef.current.currentTime = ((e.nativeEvent.offsetX / seekBg.current.offsetWidth)*audioRef.current.duration)
 
     }
-
-
-
-
-
-
+    const changeVolume = (e) => { // Add changeVolume function
+        const newVolume = e.target.value;
+        setVolume(newVolume);
+        audioRef.current.volume = newVolume;
+      };
 
     useEffect(() => {
         setTimeout(() =>{
@@ -91,7 +91,8 @@ const PlayerContextProvider =(props) =>{
         play,pause,
         playWithId,
         previous,next,
-        seekSong
+        seekSong,
+        volume,changeVolume
 
     }
     return(
