@@ -65,7 +65,7 @@ Once the app is running, you can explore the various features of the Spotify clo
 - **JavaScript (ES6+)**: The programming language used for logic and component creation.
 
 ## Contributing
-This is concribution project with 
+This is concribution project with [https://github.com/rishininawodi] check her profile give feedback
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
 
