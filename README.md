@@ -38,7 +38,7 @@ To get started with this project, follow these steps:
 
 4. **Open the app:**
 
-    Open your browser and go to `http://localhost:5173`.
+    Open your browser and go to `http://localhost:5173`
 
 ## Usage
 
