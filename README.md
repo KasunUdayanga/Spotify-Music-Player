@@ -68,7 +68,6 @@ Once the app is running, you can explore the various features of the Spotify clo
 This is concribution project with [Rishini Nawodi](https://github.com/rishininawodi) check her profile give feedback
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
-
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature-branch`).
 3. Make your changes.
